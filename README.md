@@ -3,8 +3,6 @@
 **With this video converter you will be able to convert and download youtube links in mp3 or mp4 format.**
 
 
-**http://prariecomamile.pythonanywhere.com/**
-
 
 ---------------------------------
 **Libraries Used:**
