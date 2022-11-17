@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(34, 42, 47);
+}
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+nav
+{
+    background:rgb(255, 0, 0);
+    height: 70px;
+}
+
+label.nav
+{
+    color: #fff;
+    font-size: 2.3em;
+    line-height: 70px;
+    padding: 0 100px;
+    font-weight: 800px;
+}
+
+.menu
+{
+    position: absolute;
+    left: 50%;
+    top: 15pc;
+    transform: translate(-50%, -50%);
+}
+
+
+.menuc
+{
+    position: absolute;
+    left: 50%;
+    top: 150%;
+    transform: translate(-50%, -50%);
+}
+
+#input_text
+{
+    width: 800px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+#cevirme
+{
+    font-size: 15px;
+    width: 70px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+#button
+{
+    background-color: red;
+    font-size: 17px;
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.yt_cnvrt
+{
+    font-size: 70px;
+    text-align: center;
+    margin-bottom: 30px;
+}
