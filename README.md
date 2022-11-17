@@ -2,6 +2,14 @@
 
 **With this video converter you will be able to convert and download youtube links in mp3 or mp4 format.**
 
+**Libraries Used:**
+Flask
+Pytube
+
+For Download:
+pip install Flask
+pip install pytube
+
 **Website ScreenShot**
 
 Homepage:
