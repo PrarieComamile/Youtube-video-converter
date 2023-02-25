@@ -71,7 +71,7 @@ def youtube():
         return render_template("error.html")
     
 
-
+# Download just sound
 @app.route("/downloadmp3", methods = ['POST', 'GET'])
 def downloadmp3():
     try:
@@ -90,7 +90,8 @@ def downloadmp3():
     finally:
         os.remove(video)
 
-
+        
+# 360P Video Download
 @app.route("/download360p", methods = ['POST', 'GET'])
 def download360p():
     try:
@@ -108,7 +109,7 @@ def download360p():
         os.remove(video)
         
         
-
+# 720P Video Download
 @app.route("/download720p", methods = ['POST', 'GET'])
 def download720p():
     try:
